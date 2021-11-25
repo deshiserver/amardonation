@@ -1858,8 +1858,8 @@ Navbar Area Style
     text-transform: capitalize;
     color: #151d41;
     font-weight: 600;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .nivo-nav-one .main-nav nav .navbar-nav .nav-item a:hover {
