@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Title  -->
-    <title>About Us - Crowdfunding Platform </title>
+    <title>AmarDonation - Crowdfunding Platform </title>
     <!-- bootstrapcdn -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- fontawesome -->
@@ -47,48 +44,42 @@
     </style>
 </head>
 
-<body>
-    <h1>ABout us</h1>
 
 
 
 
+<!-- load all script -->
+<script src="assets/frontend/js/jquery-3.4.1.min.js"></script>
+<script src="assets/frontend/js/jquery-migrate-3.1.0.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/jquery.magnific-popup.js"></script>
+<script src="assets/js/jquery.counterup.min.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src=" assets/frontend/js/wow.min.js"></script>
+<script src="assets/js/jquery.ihavecookies.min.js"></script>
+<!-- popup message  -->
+<script>
+    $(document).ready(function () {
+        var delayTime = "5000";
+        delayTime = delayTime ? delayTime : 4000;
 
-    <!-- load all script -->
-    <script src="assets/frontend/js/jquery-3.4.1.min.js"></script>
-    <script src="assets/frontend/js/jquery-migrate-3.1.0.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src=" assets/frontend/js/wow.min.js"></script>
-    <script src="assets/js/jquery.ihavecookies.min.js"></script>
-    <!-- popup message  -->
-    <script>
-        $(document).ready(function () {
-            var delayTime = "5000";
-            delayTime = delayTime ? delayTime : 4000;
-
-            $('body').ihavecookies({
-                title: "Cookies &amp; Privacy",
-                message: "amardonation residence conveying so so. Suppose shyness say ten behaved morning had. Any unsatiable assistance compliment occasional too reasonably advantages.",
-                expires: "30",
-                link: "later/laravel/amardonation/p/privacy-policy/2",
-                delay: delayTime,
-                moreInfoLabel: "More information",
-                acceptBtnLabel: "Accept Cookie",
-                advancedBtnLabel: "Decline Cookie"
-            });
-            $('body').on('click', '#gdpr-cookie-close', function (e) {
-                e.preventDefault();
-                $(this).parent().remove();
-            });
+        $('body').ihavecookies({
+            title: "Cookies &amp; Privacy",
+            message: "amardonation residence conveying so so. Suppose shyness say ten behaved morning had. Any unsatiable assistance compliment occasional too reasonably advantages.",
+            expires: "30",
+            link: "later/laravel/amardonation/p/privacy-policy/2",
+            delay: delayTime,
+            moreInfoLabel: "More information",
+            acceptBtnLabel: "Accept Cookie",
+            advancedBtnLabel: "Decline Cookie"
         });
-    </script>
-    <!-- Menu bar area  -->
-    <script src="assets/js/meanmenu.min.js"></script>
-    <!-- Custome js  -->
-    <script src="assets/js/custom.js"></script>
-</body>
-
-</html>
+        $('body').on('click', '#gdpr-cookie-close', function (e) {
+            e.preventDefault();
+            $(this).parent().remove();
+        });
+    });
+</script>
+<!-- Menu bar area  -->
+<script src="assets/js/meanmenu.min.js"></script>
+<!-- Custome js  -->
+<script src="assets/js/custom.js"></script>
