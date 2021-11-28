@@ -219,7 +219,7 @@
             preloader
         ------------------*/
         var preLoder = $("#preloader");
-        preLoder.fadeOut(1000);
+        preLoder.fadeOut(100);
 
         /*-----------------
             back to top
