@@ -4,6 +4,7 @@
     border: none;
     outline: none;
 }
+.btn-full-width{width: 100%;}
 /*** 
 
 ====================================================================
@@ -1298,7 +1299,10 @@ a:visited {
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
-
+.thm-btn.campaign-details__share__btn.btn-full-width {
+    text-align: center;
+    border-radius: 17px;
+}
 .btn-style-three {
     /* font-size: 16px; */
     /* line-height: 30px; */
@@ -2599,3 +2603,4 @@ a:visited {
     outline: none;
     margin-bottom: 10px;
 }
+
