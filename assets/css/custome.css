@@ -2491,7 +2491,7 @@ a:visited {
     position: relative;
     display: block;
     padding: 120px 0 120px;
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 
 .become-volunteer__left {
@@ -3160,4 +3160,354 @@ a:visited {
 .donation-page-section .inner-container {
     max-width: 950px;
     margin: 0 auto;
+}
+
+/*--------------------------------------------------------------
+# Make Defrence
+--------------------------------------------------------------*/
+.make-donation-two {
+    position: relative;
+    display: block;
+    padding: 120px 0 120px;
+    /* margin-top: 100px; */
+}
+
+.make-donation-two__left {
+    position: relative;
+    display: block;
+    margin-right: 64px;
+}
+
+.make-donation-two__left .block-title {
+    margin-bottom: 40px;
+}
+
+.make-donation-two__text {
+    margin: 0;
+}
+
+.make-donation-two__progress {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-top: 32px;
+}
+
+.make-donation-two__progress-title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    font-family: var(--thm-font);
+    margin-bottom: 7px;
+}
+
+.make-donation-two__progress .bar {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #eae5e3;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+.make-donation-two__progress .bar.mrb-0 {
+    margin-bottom: 0;
+}
+
+.make-donation-two__progress .bar-inner {
+    position: relative;
+    display: block;
+    width: 0px;
+    height: 10px;
+    border-radius: 5px;
+    background: #FF6D12;
+    -webkit-transition: all 1500ms ease;
+    -ms-transition: all 1500ms ease;
+    -o-transition: all 1500ms ease;
+    -moz-transition: all 1500ms ease;
+    transition: all 1500ms ease;
+}
+
+.make-donation-two__progress .count-text {
+    position: absolute;
+    right: 0px;
+    bottom: 12px;
+    color: var(--thm-gray);
+    line-height: 26px;
+    font-size: 16px;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.make-donation-two__progress .bar-inner.counted .count-text {
+    opacity: 1;
+}
+
+.make-donation-two__right {
+    position: relative;
+    display: block;
+    margin-left: -40px;
+}
+
+.make-donation-two__right .row {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.make-donation-two__right .col-xl-6 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.make-donation-two__single-img {
+    position: relative;
+    display: block;
+}
+
+.make-donation-two__single-img img {
+    width: 100%;
+    border-radius: var(--thm-border-radius);
+}
+
+/*--------------------------------------------------------------
+# You Can Help Two
+--------------------------------------------------------------*/
+.you-can-help-two {
+    padding-top: 120px;
+    margin-top: 0;
+}
+/*** 
+
+====================================================================
+	Mission Section
+====================================================================
+
+***/
+
+.goal-section {
+    position: relative;
+    padding: 95px 0px 60px;
+}
+
+.goal-section .row {
+    margin: 0px -25px;
+}
+
+.goal-section .goal-block {
+    padding: 0px 25px;
+}
+
+.goal-block {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.goal-block .inner-box {
+    position: relative;
+    padding: 70px 0px 40px;
+    text-align: center;
+    border-radius: 0px;
+}
+
+.goal-block .inner-box:before {
+    position: absolute;
+    content: '';
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #ffffff;
+    clip-path: polygon(50% 0%, 100% 38%, 90% 100%, 10% 100%, 0% 38%);
+}
+
+.goal-block .inner-box .icon-box {
+    position: relative;
+    color: #ff5722;
+    font-size: 60px;
+    line-height: 1em;
+    transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -webkit-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+}
+
+.goal-block .inner-box h3 {
+    position: relative;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.3em;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.goal-block .inner-box h3 a {
+    position: relative;
+    color: #333333;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.goal-block .inner-box .text {
+    position: relative;
+    color: #777777;
+    font-size: 16px;
+    line-height: 2em;
+    padding: 0px 25px;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.goal-block .inner-box:hover .icon-box {
+    -webkit-transform: scale(-1) rotate(180deg);
+    -moz-transform: scale(-1) rotate(180deg);
+    -ms-transform: scale(-1) rotate(180deg);
+    -o-transform: scale(-1) rotate(180deg);
+    transform: scale(-1) rotate(180deg);
+}
+
+.goal-block .inner-box:hover .text {
+    color: #bbbbbb;
+}
+/*** 
+
+====================================================================
+	Section Title
+====================================================================
+
+***/
+
+.sec-title {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.sec-title .title {
+    position: relative;
+    font-size: 16px;
+    color: #777777;
+    font-weight: 400;
+    line-height: 1.9em;
+    margin-bottom: 5px;
+}
+
+.sec-title h2 {
+    position: relative;
+    font-size: 36px;
+    color: #333333;
+    font-weight: 700;
+    line-height: 1.3em;
+    text-transform: capitalize;
+}
+
+.sec-title .text {
+    position: relative;
+    font-size: 16px;
+    color: #777777;
+    font-weight: 400;
+    line-height: 1.9em;
+    margin-top: 20px;
+}
+
+.sec-title.light h2,
+.sec-title.light .text {
+    color: #ffffff;
+}
+
+.sec-title.light h2:before {
+    background-color: #ffffff;
+}
+
+.sec-title.light .title-inner:before {
+    background-color: #777777;
+}
+
+.sec-title.centered {
+    text-align: center;
+}
+
+.sec-title.centered h2:before {
+    left: 50%;
+    margin-left: -21px;
+}
+/*
+Page Title Area Style
+================================*/
+.page-title-area {
+    position: relative;
+    z-index: 1;
+    padding-top: 260px;
+    padding-bottom: 140px;
+    background-color: #e22b64;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.page-title-area::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: #000000;
+    opacity: 0.9;
+}
+
+.page-title-area .page-title-content h2 {
+    margin-bottom: 0;
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.page-title-area .page-title-content ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.page-title-area .page-title-content ul li {
+    display: inline-block;
+    color: #fd3c65;
+    position: relative;
+    font-size: 16px;
+}
+
+.page-title-area .page-title-content ul li i {
+    font-size: 12px;
+    margin: 0 10px;
+}
+
+.page-title-area .page-title-content ul li a {
+    color: #bab0b0;
+}
+
+.page-title-area .page-title-content ul li a:hover {
+    color: #fd3c65;
+}
+
+.page-title-area .page-title-content ul li a i {
+    font-size: 12px;
+    margin: 0 10px;
+}
+
+.page-title-area.item-bg-1 {
+    background-image: url(../img/banner.jpg);
 }

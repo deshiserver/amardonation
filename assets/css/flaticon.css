@@ -1,7 +1,7 @@
 @font-face {
     font-family: Flaticon;
-    src: url(https://xgenious.com/laravel/amardonation/assets/frontend/webfonts/Flaticon.eot);
-    src: url(https://xgenious.com/laravel/amardonation/assets/frontend/webfonts/Flaticon.eot?#iefix) format("embedded-opentype"), url(https://xgenious.com/laravel/amardonation/assets/frontend/webfonts/Flaticon.woff) format("woff"), url(https://xgenious.com/laravel/amardonation/assets/frontend/webfonts/Flaticon.ttf) format("truetype"), url(https://xgenious.com/laravel/amardonation/assets/frontend/webfonts/Flaticon.svg#Flaticon) format("svg");
+    src: url(https://amardonation.com/laravel/amardonation/assets/frontend/webfonts/Flaticon.eot);
+    src: url(https://amardonation.com/laravel/amardonation/assets/frontend/webfonts/Flaticon.eot?#iefix) format("embedded-opentype"), url(https://amardonation.com/laravel/amardonation/assets/frontend/webfonts/Flaticon.woff) format("woff"), url(https://amardonation.com/laravel/amardonation/assets/frontend/webfonts/Flaticon.ttf) format("truetype"), url(https://amardonation.com/laravel/amardonation/assets/frontend/webfonts/Flaticon.svg#Flaticon) format("svg");
     font-weight: 400;
     font-style: normal;
 }
@@ -9,7 +9,7 @@
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
     @font-face {
         font-family: Flaticon;
-        src: url(https://xgenious.com/laravel/amardonation/assets/frontend/webfonts/Flaticon.svg#Flaticon) format("svg");
+        src: url(https://amardonation.com/laravel/amardonation/assets/frontend/webfonts/Flaticon.svg#Flaticon) format("svg");
     }
 }
 
