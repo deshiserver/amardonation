@@ -3281,6 +3281,7 @@ a:visited {
     padding-top: 120px;
     margin-top: 0;
 }
+
 /*** 
 
 ====================================================================
@@ -3381,6 +3382,7 @@ a:visited {
 .goal-block .inner-box:hover .text {
     color: #bbbbbb;
 }
+
 /*** 
 
 ====================================================================
@@ -3442,6 +3444,7 @@ a:visited {
     left: 50%;
     margin-left: -21px;
 }
+
 /*
 Page Title Area Style
 ================================*/
@@ -3510,4 +3513,174 @@ Page Title Area Style
 
 .page-title-area.item-bg-1 {
     background-image: url(../img/banner.jpg);
+}
+
+/*--------------------------------------------------------------
+# Contact us Page
+--------------------------------------------------------------*/
+.contact-page {
+    position: relative;
+    display: block;
+    padding: 120px 0 110px;
+}
+
+.contact-page .block-title {
+    margin-bottom: 50px;
+}
+
+.contact-form {
+    position: relative;
+    display: block;
+    border: 1px solid #eae5e3;
+    padding: 80px;
+    margin-right: -30px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.contact-one__form .row {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.contact-one__form .col-xl-6 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contact-one__form .col-xl-12 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contact-form__input-box input[type="text"],
+.contact-form__input-box input[type="email"] {
+    height: 67px;
+    width: 100%;
+    border: none;
+    background: #f7f4f2;
+    padding: 0 40px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    outline: none;
+    font-size: 16px;
+    color: var(--thm-gray);
+}
+
+.contact-form__input-box textarea {
+    font-size: 16px;
+    color: var(--thm-gray);
+    height: 180px;
+    width: 100%;
+    background: #f7f4f2;
+    padding: 20px 40px 30px;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.contact-page__info-box {
+    position: relative;
+    display: block;
+    background: #f7f4f2;
+    text-align: center;
+    border: 1px solid #eae5e3;
+    border-left: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 77px 0;
+    width: 100%;
+}
+
+.contact-page__info-box-address {
+    padding-bottom: 33px;
+}
+
+.contact-page__info-box-tilte {
+    font-size: 18px;
+    font-family: var(--thm-font);
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+
+.contact-page__info-box-address-text {
+    font-size: 16px;
+    margin: 0;
+    line-height: 28px;
+}
+
+.contact-page__info-box-phone {
+    padding-bottom: 33px;
+}
+
+.contact-page__info-box-phone-number {
+    font-size: 16px;
+    margin: 0;
+    line-height: 28px;
+}
+
+.contact-page__info-box-phone-number a {
+    color: var(--thm-gray);
+}
+
+.contact-page__info-box-email {
+    padding-bottom: 33px;
+}
+
+.contact-page__info-box-email-address {
+    font-size: 16px;
+    margin: 0;
+    line-height: 28px;
+}
+
+.contact-page__info-box-email-address a {
+    color: var(--thm-gray);
+}
+
+.contact-page__info-box-follow-social {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.contact-page__info-box-follow-social a {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background-color: #56b4e5;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 50%;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.contact-page__info-box-follow-social a+a {
+    margin-left: 10px;
+}
+
+.contact-page__info-box-follow-social a.clr-fb {
+    background: #465fdd;
+}
+
+.contact-page__info-box-follow-social a.clr-dri {
+    background: #d8423f;
+}
+
+.contact-page__info-box-follow-social a.clr-ins {
+    background: #5374a0;
+}
+
+.contact-page__info-box-follow-social a:hover {
+    background: var(--thm-primary);
 }
