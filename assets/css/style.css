@@ -38,12 +38,12 @@
 
 # Elements
     ## Back Top
-    ## Preloader
+    ## ad-preloader
     ## Video Popup
     ## Button
     ## Blog
     ## Accordion
-    ## contact Info Item
+    ## ad-contact Info Item
     ## Quote block with sign
     ## Counterup Item
     ## Video With Image
@@ -889,8 +889,8 @@ code {
 .site-header:after,
 .site-content:before,
 .site-content:after,
-.site-footer:before,
-.site-footer:after {
+.footer-area:before,
+.footer-area:after {
     content: "";
     display: table;
     table-layout: fixed;
@@ -901,7 +901,7 @@ code {
 .comment-content:after,
 .site-header:after,
 .site-content:after,
-.site-footer:after {
+.footer-area:after {
     clear: both;
 }
 
@@ -1188,14 +1188,14 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     padding: 0.5em;
 }
 
-.wp-block-embed.type-video>.wp-block-embed__wrapper {
+.wp-block-embed.type-video>.wp-block-embed-wrapper {
     position: relative;
     width: 100%;
     height: 0;
     padding-top: 56.25%;
 }
 
-.wp-block-embed.type-video>.wp-block-embed__wrapper>iframe {
+.wp-block-embed.type-video>.wp-block-embed-wrapper>iframe {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1271,14 +1271,14 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     padding: 0.5em;
 }
 
-.wp-block-embed.type-video>.wp-block-embed__wrapper {
+.wp-block-embed.type-video>.wp-block-embed-wrapper {
     position: relative;
     width: 100%;
     height: 0;
     padding-top: 56.25%;
 }
 
-.wp-block-embed.type-video>.wp-block-embed__wrapper>iframe {
+.wp-block-embed.type-video>.wp-block-embed-wrapper>iframe {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -2042,7 +2042,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     color: var(--secondary-color);
 }
 
-.widget.widget_map .contact_map-02 {
+.widget.widget_map .ad-contact_map-02 {
     padding: 15px 45px 45px 45px;
 }
 
@@ -2199,56 +2199,56 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     padding-right: 5px;
 }
 
-.contact_info_list {
+.ad-contact_info_list {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.contact_info_list li {
+.ad-contact_info_list li {
     display: block;
 }
 
-.contact_info_list li.single-info-item {
+.ad-contact_info_list li.single-info-item {
     margin-bottom: 35px;
 }
 
-.contact_info_list li.single-info-item.style-01 .title {
+.ad-contact_info_list li.single-info-item.style-01 .title {
     color: #2b2a35;
 }
 
-.contact_info_list li.single-info-item.style-01 .details {
+.ad-contact_info_list li.single-info-item.style-01 .details {
     color: #54606c;
 }
 
-.contact_info_list li.single-info-item .title {
+.ad-contact_info_list li.single-info-item .title {
     font-size: 18px;
     font-weight: 700;
     color: #fff;
     font-family: var(--heading-font);
 }
 
-.contact_info_list li.single-info-item .details {
+.ad-contact_info_list li.single-info-item .details {
     color: #a8a8a8;
 }
 
-.contact_info_list li.single-info-item-02 {
+.ad-contact_info_list li.single-info-item-02 {
     margin-left: 40px;
     position: relative;
     display: flex;
 }
 
-.contact_info_list li.single-info-item-02.style-01 .details {
+.ad-contact_info_list li.single-info-item-02.style-01 .details {
     color: #2b2a35;
 }
 
-.contact_info_list li.single-info-item-02 .icon {
+.ad-contact_info_list li.single-info-item-02 .icon {
     margin-right: 15px;
     font-size: 25px;
     color: var(--main-color-one);
 }
 
-.contact_info_list li.single-info-item-02 .details {
+.ad-contact_info_list li.single-info-item-02 .details {
     font-size: 24px;
     font-weight: 700;
     color: #fff;
@@ -2389,6 +2389,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     top: 0px;
     z-index: 1;
 }
+
 .navbar-area.nav-style-02 {
     background-color: #f7f7f7;
     position: absolute;
@@ -4031,12 +4032,12 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     color: var(--main-color-one);
 }
 
-.contact-inner-area .content-area-wrapper {
+.ad-contact-inner-area .content-area-wrapper {
     position: relative;
     z-index: 0;
 }
 
-.contact-inner-area .content-area-wrapper.bg-image {
+.ad-contact-inner-area .content-area-wrapper.bg-image {
     min-height: 400px;
     height: 100%;
     width: 100%;
@@ -4044,7 +4045,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     background-repeat: no-repeat;
 }
 
-.contact-inner-area .content-area-wrapper .content-area {
+.ad-contact-inner-area .content-area-wrapper .content-area {
     position: absolute;
     right: 0;
     display: inline-block;
@@ -4217,9 +4218,9 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 /*-------------------------
-    ## Preloader Css
+    ## ad-preloader Css
 ---------------------------*/
-.preloader-inner {
+.ad-preloader-inner {
     position: fixed;
     left: 0;
     top: 0;
@@ -4232,7 +4233,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     justify-content: center;
 }
 
-.preloader-inner .loader {
+.ad-preloader-inner .loader {
     position: absolute;
     top: 0;
     left: 0;
@@ -4245,7 +4246,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     -webkit-animation: rotateAnim 2s infinite ease;
 }
 
-.preloader-inner .loader div {
+.ad-preloader-inner .loader div {
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -4261,25 +4262,25 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
 }
 
-.preloader-inner .loader div:nth-child(1) {
+.ad-preloader-inner .loader div:nth-child(1) {
     top: -25px;
     animation-name: translateAnimTop;
     -webkit-animation-name: translateAnimTop;
 }
 
-.preloader-inner .loader div:nth-child(2) {
+.ad-preloader-inner .loader div:nth-child(2) {
     left: 25px;
     animation-name: translateAnimRight;
     -webkit-animation-name: translateAnimRight;
 }
 
-.preloader-inner .loader div:nth-child(3) {
+.ad-preloader-inner .loader div:nth-child(3) {
     top: 25px;
     animation-name: translateAnimBottom;
     -webkit-animation-name: translateAnimBottom;
 }
 
-.preloader-inner .loader div:nth-child(4) {
+.ad-preloader-inner .loader div:nth-child(4) {
     left: -25px;
     animation-name: translateAnimLeft;
     -webkit-animation-name: translateAnimLeft;
@@ -5104,16 +5105,16 @@ form .btn-wrapper .boxed-btn {
 }
 
 /*-------------------------
-    Contact Info Item
+    ad-contact Info Item
 -------------------------*/
-.single-contact-item {
+.single-ad-contact-item {
     display: flex;
     align-self: flex-start;
     background-color: var(--bg-color-two);
     padding: 15px 0px;
 }
 
-.single-contact-item .icon {
+.single-ad-contact-item .icon {
     line-height: 60px;
     text-align: center;
     margin-right: 20px;
@@ -5122,11 +5123,11 @@ form .btn-wrapper .boxed-btn {
     transition: all 0.3s ease-in;
 }
 
-.single-contact-item .content {
+.single-ad-contact-item .content {
     flex: 1;
 }
 
-.single-contact-item .content .title {
+.single-ad-contact-item .content .title {
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
@@ -5135,29 +5136,29 @@ form .btn-wrapper .boxed-btn {
     color: var(--heading-color);
 }
 
-.single-contact-item .content .details {
+.single-ad-contact-item .content .details {
     font-size: 14px;
     font-weight: 500;
     color: var(--paragraph-color);
     margin-bottom: 0;
 }
 
-.contact_info_list {
+.ad-contact_info_list {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.contact_info_list .single-info-item-03 {
+.ad-contact_info_list .single-info-item-03 {
     display: flex;
     align-self: flex-start;
 }
 
-.contact_info_list .single-info-item-03+.single-info-item-03 {
+.ad-contact_info_list .single-info-item-03+.single-info-item-03 {
     margin-top: 10px;
 }
 
-.contact_info_list .single-info-item-03 .icon {
+.ad-contact_info_list .single-info-item-03 .icon {
     display: inline-block;
     text-align: center;
     margin-right: 10px;
@@ -5166,20 +5167,20 @@ form .btn-wrapper .boxed-btn {
     transition: all 0.3s ease-in;
 }
 
-.contact_info_list .single-info-item-03 .content {
+.ad-contact_info_list .single-info-item-03 .content {
     flex: 1;
 }
 
-.contact_info_list .single-info-item-03 .content .details {
+.ad-contact_info_list .single-info-item-03 .content .details {
     display: block;
 }
 
-.contact_map {
+.ad-contact_map {
     height: 100%;
     min-height: 500px;
 }
 
-.contact_map-02 {
+.ad-contact_map-02 {
     height: 100%;
     min-height: 140px;
 }
@@ -5190,7 +5191,7 @@ form .btn-wrapper .boxed-btn {
     background-color: #ddd;
 }
 
-.contact-page-form .form-group textarea {
+.ad-contact-page-form .form-group textarea {
     max-height: 160px;
     resize: none;
     width: 100%;
@@ -5200,11 +5201,11 @@ form .btn-wrapper .boxed-btn {
     border-radius: 5px;
 }
 
-.contact-page-form .form-group textarea::placeholder {
+.ad-contact-page-form .form-group textarea::placeholder {
     color: #b4b4b4;
 }
 
-.contact-page-form .form-group .form-control {
+.ad-contact-page-form .form-group .form-control {
     border-radius: 0;
     border-right: 1px solid #e1e1e1;
     color: var(--heading-color);
@@ -5215,23 +5216,23 @@ form .btn-wrapper .boxed-btn {
     margin-bottom: 25px;
 }
 
-.contact-page-form .form-group .form-control::placeholder {
+.ad-contact-page-form .form-group .form-control::placeholder {
     color: #b4b4b4;
 }
 
-.contact-page-form .form-group .form-control.brrtb {
+.ad-contact-page-form .form-group .form-control.brrtb {
     border-radius: 5px 0px 0px 5px;
 }
 
-.contact-page-form .form-group .form-control.brnone {
+.ad-contact-page-form .form-group .form-control.brnone {
     border-radius: 0px;
 }
 
-.contact-page-form .form-group .form-control.brltb {
+.ad-contact-page-form .form-group .form-control.brltb {
     border-radius: 0px 5px 5px 0px;
 }
 
-.contact-page-form.style-01 .form-group .form-control {
+.ad-contact-page-form.style-01 .form-group .form-control {
     padding: 25px;
     border: none;
 }
@@ -7715,11 +7716,11 @@ form .btn-wrapper .boxed-btn {
     padding-right: 0;
 }
 
-.contact_info_list li.single-info-item {
+.ad-contact_info_list li.single-info-item {
     display: flex;
 }
 
-.contact_info_list li.single-info-item .icon {
+.ad-contact_info_list li.single-info-item .icon {
     margin-right: 10px;
     color: var(--main-color-one);
 }
@@ -8123,7 +8124,7 @@ form .btn-wrapper .boxed-btn {
     height: 20px
 }
 
-.contact_info_list li {
+.ad-contact_info_list li {
     margin-bottom: 0 !important;
 }
 
@@ -8316,7 +8317,7 @@ form .btn-wrapper .boxed-btn {
 
 /* ============================Sohan CSS =============================*/
 
-/*For Contact Page Map*/
+/*For ad-contact Page Map*/
 #map iframe {
     width: 100%;
     height: 900px;
@@ -8327,13 +8328,13 @@ form .btn-wrapper .boxed-btn {
     background-color: #ddd;
 }
 
-.contact_map iframe,
+.ad-contact_map iframe,
 .elementor-custom-embed {
     min-height: 100%;
     background-color: #ddd;
 }
 
-.contact_map iframe {
+.ad-contact_map iframe {
     position: absolute;
     left: 0;
     width: 100%;
@@ -8344,13 +8345,13 @@ form .btn-wrapper .boxed-btn {
     position: relative;
 }
 
-.map-wrapper .contact-wrapper {
+.map-wrapper .ad-contact-wrapper {
     position: absolute;
     top: 0;
     right: 20%;
 }
 
-.contact_map {
+.ad-contact_map {
     height: 100%;
     min-height: 500px;
 }
@@ -8361,14 +8362,14 @@ form .btn-wrapper .boxed-btn {
     background-color: #ddd;
 }
 
-/*For Contact Page Map*/
-.contact-info .boxed-btn {
+/*For ad-contact Page Map*/
+.ad-contact-info .boxed-btn {
     border: none;
 }
 
 .page-item.active .page-link {
     z-index: 3;
-    color: __var();
+    color: -var();
     background-color: #fcb11a;
     border-color: #007bff;
 }
@@ -8907,12 +8908,12 @@ button.submit-btn.gd-bg.pay-now {
 
 /*=============================User Dashboard Css ==================================*/
 
-/*Login Form*/
-.login-form-wrapper .form-control {
+/*ad-login Form*/
+.ad-login-form-wrapper .form-control {
     height: 45px;
 }
 
-.login-form-wrapper .boxed-btn {
+.ad-login-form-wrapper .boxed-btn {
     border: none;
 }
 
@@ -8920,7 +8921,7 @@ button.submit-btn.gd-bg.pay-now {
     border: none;
 }
 
-/*Event Login Form*/
+/*Event ad-login Form*/
 /* .tab-content .form-control{
     padding: 23px 15px;
 } */
@@ -9379,19 +9380,19 @@ div.dataTables_wrapper div.dataTables_filter input {
     font-weight: 900;
 }
 
-.login-form-wrapper {
+.ad-login-form-wrapper {
     padding: 50px;
     box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.05);
 }
 
-.login-form-wrapper>h2 {
+.ad-login-form-wrapper>h2 {
     font-size: 36px;
     line-height: 46px;
     font-weight: 700;
     text-align: center;
 }
 
-.login-form-wrapper .btn-wrapper {
+.ad-login-form-wrapper .btn-wrapper {
     text-align: center;
     margin-bottom: 30px;
     margin-top: 30px;
@@ -9424,7 +9425,7 @@ div.dataTables_wrapper div.dataTables_filter input {
     box-shadow: 0 0 40px 0 rgba(0, 0, 0, .05);
 }
 
-#login_form_order_page .form-control {
+#ad-login_form_order_page .form-control {
     border: 1px solid #e2e2e2;
     border-radius: 0;
     height: 50px;
@@ -9807,11 +9808,11 @@ div.dataTables_wrapper div.dataTables_filter input {
     margin-bottom: 15px;
 }
 
-.cause-comment-body>.login-form {
+.cause-comment-body>.ad-login-form {
     margin-top: 40px;
 }
 
-.cause-comment-body>.login-form>p {
+.cause-comment-body>.ad-login-form>p {
     font-size: 20px;
     line-height: 30px;
     font-weight: 600;
@@ -10064,8 +10065,8 @@ div.dataTables_wrapper div.dataTables_filter input {
     margin-bottom: 0;
 }
 
-/* social login */
-.social-login-wrap a {
+/* social ad-login */
+.social-ad-login-wrap a {
     display: block;
     padding: 15px 20px;
     border: 1px solid #e2e2e2;
@@ -10076,22 +10077,22 @@ div.dataTables_wrapper div.dataTables_filter input {
     transition: 300ms ease;
 }
 
-.social-login-wrap .facebook {
+.social-ad-login-wrap .facebook {
     border: 1px solid #1877F2;
     color: #1877F2;
 }
 
-.social-login-wrap .facebook:hover {
+.social-ad-login-wrap .facebook:hover {
     background-color: #1877F2;
     color: #fff;
 }
 
-.social-login-wrap .google {
+.social-ad-login-wrap .google {
     border: 1px solid #DB4437;
     color: #DB4437;
 }
 
-.social-login-wrap .google:hover {
+.social-ad-login-wrap .google:hover {
     background-color: #DB4437;
     color: #fff;
 }

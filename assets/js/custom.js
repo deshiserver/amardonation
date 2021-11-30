@@ -5,9 +5,9 @@
         meanScreenWidth: "991"
     });
 
-    // Preloader
+    // ad-preloader
     $(window).on('load', function () {
-        $('.preloader').fadeOut();
+        $('.ad-preloader').fadeOut();
     });
 
     // Header Sticky
@@ -30,12 +30,12 @@
         if (scrolled < 300) $('.go-top').removeClass('active');
     });
 
-   
-   
-  
-   
 
-  
+
+
+
+
+
 
     // Search Popup JS
     $('.close-btn').on('click', function () {
@@ -49,8 +49,8 @@
         $('.close-btn').addClass('active');
     });
 
-   
-// Main js 
+
+    // Main js 
 
     $(document).ready(function () {
         var rtlEnable = $('html').attr('dir');
@@ -216,9 +216,9 @@
     $(window).on('load', function () {
 
         /*-----------------
-            preloader
+            ad-preloader
         ------------------*/
-        var preLoder = $("#preloader");
+        var preLoder = $("#ad-preloader");
         preLoder.fadeOut(100);
 
         /*-----------------
@@ -229,7 +229,7 @@
 
     });
 
-   
+
 })(jQuery);
 
 
